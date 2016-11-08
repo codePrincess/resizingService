@@ -13,6 +13,8 @@ URL: **https://yourcoolreszingapp.azurewebsites.net/api/saveOriginal**
 - Request - URL parameters
   - **code** = your code listed at the function as a very basic way of authentication
   - **imgName** = the name of the file - and all its resizings - within the service
+- Request - File attachment
+  - attach your image to the POST request
 - Response
   - **[string, string]** - an dictionary of URLs in the JSON format which contain all the generated resized versions of your uploaded image with the size as the key
 
