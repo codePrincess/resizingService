@@ -16,7 +16,7 @@ URL: **https://yourcoolreszingapp.azurewebsites.net/api/saveOriginal**
 - Request - File attachment
   - attach your image to the POST request
 - Response
-  - **[string, string]** - an dictionary of URLs in the JSON format which contain all the generated resized versions of your uploaded image with the size as the key
+  - **[string, string]** - a dictionary of URLs in the JSON format which contain all the generated resized versions of your uploaded image with the size as the key
 
 > Response example
 ~~~~
@@ -38,7 +38,7 @@ In the "background" the second deployed function will be called as soon as the b
 So this is it! Just those few steps and you have a ready to go resizing service!
 Nice one!
 
-So have fun and share your feedback with me :)
+Have fun and share your feedback with me :)
   
 
 
