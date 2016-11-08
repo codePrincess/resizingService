@@ -3,7 +3,7 @@
 This repository gives you everything to deploy your own (basic) image resizing service. 
 
 ## Deployment
-The deployment is rather straight forward and a detailed HowTo can be found in the ReadMe of the FunkyMock reps: https://github.com/codePrincess/funkyMock.
+The deployment is rather straight forward and a detailed HowTo can be found in the ReadMe of the FunkyMock repo: https://github.com/codePrincess/funkyMock.
 
 ##Usage
 After deployment you will have an HTTP POST endpoint **saveOriginal**. Just add the URL parameter *imgName* and tell the service how your image shall be named. Then attach the file itself and post everything into the interwebsz :)
