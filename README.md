@@ -1,4 +1,8 @@
-# A Resizing Service - on steroi... Azure Functions!
+# A Resizing Service - on Azure Functions!
+
+<a href="https://azuredeploy.net/" target="_blank">
+    <img src="http://azuredeploy.net/deploybutton.png"/>
+</a>
 
 This repository gives you everything to deploy your own (basic) image resizing service. 
 
