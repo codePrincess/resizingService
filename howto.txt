@@ -1,0 +1,23 @@
+//HOWTO provision this sample
+1. Click the button :)
+
+// HOWTO provision Azure functions via Azure CLI and ARM
+
+1. Login to Azure
+    azure login (& follow the instructions)
+
+2. Create a new Resource Group
+    azure group create -n ResizingFunctionGroup -l "West Europe"
+
+3. Deploy ARM to Resource Group
+    azure group deployment create -f arm_func.json -e arm_func.parameter.json -g ResizingFunctionGroup -n MyARMDeployment
+
+
+// HOWTO provision Azure functions via Powershell and ARM
+1. Login to Azure
+
+2. Create a new Resource Group
+    New-AzureRmResourceGroup -Name ResizingFunctionGroup -Location "West Europe"
+
+3. Deploy ARM to Resource Group
+New-AzureRmResourceGroupDeployment  "West Europe" -ResourceGroupName ResizingFunctionGroup 
