@@ -1,6 +1,6 @@
 # A Resizing Service - on Azure Functions!
 
-<a href="https://azuredeploy.net/" target="_blank">
+<a href="https://azuredeploy.net/?repository=https://github.com/juliajauss/resizingService" target="_blank">
     <img src="http://azuredeploy.net/deploybutton.png"/>
 </a>
 
