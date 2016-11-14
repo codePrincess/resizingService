@@ -1,3 +1,5 @@
+[![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)]()
+
 # A Resizing Service on Steroi... - Azure Functions!
 
 <a href="https://azuredeploy.net/?repository=https://github.com/codePrincess/resizingService" target="_blank">
