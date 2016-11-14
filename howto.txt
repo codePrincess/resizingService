@@ -1,6 +1,7 @@
 // HOWTO provision Azure functions via Azure CLI and ARM
+
 1. login
 2. create resource group
-    azure group create -n ManusFirstGroup -l "West US"
+    azure group create -n HereGoesYourGroupName -l "North Europe"
 3. deploy ARM to resource group
     azure group deployment create -f arm_func.json -e arm_func.paramter.json -g HereGoesYourGroupName -n MyARMDeployment
