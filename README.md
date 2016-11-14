@@ -1,9 +1,17 @@
-# A Resizing Service - on steroi... Azure Functions!
+# A Resizing Service on Azure Functions!
+
+<a href="https://azuredeploy.net/?repository=https://github.com/juliajauss/resizingService" target="_blank">
+    <img src="http://azuredeploy.net/deploybutton.png"/>
+</a>
 
 This repository gives you everything to deploy your own (basic) image resizing service. 
 
 ## Deployment
-The deployment is rather straight forward and a detailed HowTo can be found in the ReadMe of the FunkyMock repo: https://github.com/codePrincess/funkyMock.
+**You have 3 options:**
+
+1. Just click the "Deploy to Azure Button". 
+2. Use Azure CLI to deploy the ARM template. (Take a look at the howto.txt)
+3. Use Powershell to deploy the ARM template. (Take a look at the howto.txt)
 
 ##Usage
 After deployment you will have an HTTP POST endpoint **saveOriginal**. Just add the URL parameter *imgName* and tell the service how your image shall be named. Then attach the file itself and post everything into the interwebsz :)
