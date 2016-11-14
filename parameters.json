@@ -3,10 +3,10 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "siteName": {
-      "value": "resizingService"
+      "value": "myownresizingapp"
     },
     "siteLocation": {
-      "value": "North Europe"
+      "value": "West Europe"
     },
     "repoUrl": {
       "value": "https://github.com/codePrincess/resizingService"
