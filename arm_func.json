@@ -1,26 +1,40 @@
 {
-    "$schema": "http://schemas.management.azure.com/schemas/2015-01-01-preview/deploymentTemplate.json#",
-    "contentVersion": "1.0.0.0",
-    "parameters": {
-      "siteName": {
-        "type": "string"
-      },
-      "siteLocation": {
-        "type": "string",
-        "defaultValue": "[resourceGroup().location]"
-      },  
-      "repoUrl": {
-        "type": "string"
-      },
-      "branch": {
-        "type": "string",
-        "defaultValue": "master"
+  "$schema": "http://schemas.management.azure.com/schemas/2015-01-01-preview/deploymentTemplate.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "siteName": {
+      "type": "string"
+    },
+    "siteLocation": {
+      "type": "string",
+      "defaultValue": "[resourceGroup().location]"
+    },
+    "storageAccountType": {
+      "type": "string",
+      "defaultValue": "Standard_LRS",
+      "allowedValues": [
+        "Standard_LRS",
+        "Standard_GRS",
+        "Standard_ZRS",
+        "Premium_LRS"
+      ],
+      "metadata": {
+        "description": "Storage Account type"
       }
     },
+    "repoUrl": {
+      
+      "type": "string"
+    },
+    "branch": {
+      "type": "string",
+      "defaultValue": "master"
+    }
+  },
   "variables": {
     "hostingPlanName": "[concat(parameters('siteName'), 'Plan')]",
     "storageAccountName": "[toLower(concat(parameters('siteName'), 'storage'))]",
-    "storageAccountType": "Standard_LRS",
+    "storageAccountType": "[parameters('storageAccountType')]",
     "storageAccountid": "[concat(resourceGroup().id,'/providers/','Microsoft.Storage/storageAccounts/', variables('storageAccountName'))]"
   },
   "resources": [
@@ -78,7 +92,7 @@
             }
           ]
         }
-      },   
+      },
       "resources": [
         {
           "apiVersion": "2016-03-01",

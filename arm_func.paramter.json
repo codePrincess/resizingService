@@ -2,8 +2,8 @@
   "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
   "contentVersion": "1.0.0.0",
   "parameters": {
-    "appName": {
-      "value": "resizingServiceApp"
+    "siteName": {
+      "value": "myresizingapp"
     },
     "storageAccountType": {
       "value": "Standard_LRS"
@@ -12,7 +12,7 @@
       "value": "North Europe"
     },
     "repoUrl": {
-      "value": "hhttps://github.com/codePrincess/resizingService"
+      "value": "https://github.com/codePrincess/resizingService"
     },
     "branch": {
       "value": "master"
