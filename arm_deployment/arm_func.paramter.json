@@ -8,6 +8,9 @@
     "storageAccountType": {
       "value": "Standard_LRS"
     },
+    "siteLocation": {
+      "value": "North Europe"
+    },
     "repoUrl": {
       "value": "hhttps://github.com/codePrincess/resizingService"
     },
