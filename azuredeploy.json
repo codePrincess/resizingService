@@ -15,6 +15,35 @@
       "branch": {
         "type": "string",
         "defaultValue": "master"
+      },
+      "containerSize": {
+        "type": "int",
+        "defaultValue": 128,
+        "allowedValues": [
+          128,
+          192,
+          256,
+          320,
+          384,
+          448,
+          512,
+          576,
+          640,
+          704,
+          768,
+          832,
+          896,
+          960,
+          1024,
+          1088,
+          1152,
+          1216,
+          1280,
+          1344,
+          1408,
+          1472,
+          1536
+        ]
       }
     },
   "variables": {
@@ -77,7 +106,8 @@
               "value": "~1"
             }
           ]
-        }
+        },
+        "containerSize": "[parameters('containerSize')]"
       },   
       "resources": [
         {
