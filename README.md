@@ -9,7 +9,9 @@
 This repository gives you everything to deploy your own (basic) image resizing service based on Azure Functions and Azure Blob Storage.
 
 ## Deployment
-You have three options how you want to deploy the service. The easiest way is to press the button above. The other two options need a bit more knowledge of Azure CLI or PowerShell - so chose the weapon you feel most comfortable with.
+You have three options how you want to deploy the service. The easiest way is to press the button above. The other two options need a bit more knowledge of Azure CLI or PowerShell - so chose the weapon you feel most comfortable with. What happens during the deployment is shown by this neat illustration :)
+<img src="https://dl.dropboxusercontent.com/u/2095227/blogscribbels/resize_deployment.jpg" alt="ResizingService deployment" />
+
 
 ### Option 1: The easy cake
 Just click the "Deploy to Azure" button. 
