@@ -12,7 +12,7 @@ This repository gives you everything to deploy your own (basic) image resizing s
 You have three options how you want to deploy the service. The easiest way is to press the button above. The other two options need a bit more knowledge of Azure CLI or PowerShell - so chose the weapon you feel most comfortable with.
 
 ### Option 1: The easy cake
-Just click the "Deploy to Azure Button". 
+Just click the "Deploy to Azure" button. 
 
 ### Option 2: Use Azure CLI to deploy the ARM template
 
