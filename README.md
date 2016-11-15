@@ -1,4 +1,4 @@
-[![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)]() <img src="https://img.shields.io/badge/azure-functions-ffba1c.svg" alt="Azure Functions" /> <img src="https://img.shields.io/badge/azure-CLI%20compatible-609dff.svg" alt="Azure CLI compatible" /> <img src="https://img.shields.io/badge/azure-PowerShell%20compatible-609dff.svg" alt="Azure PowerShell compatible" /> 
+[![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)]() <img src="https://img.shields.io/badge/azure-functions-ffba1c.svg" alt="Azure Functions" /> <img src="https://img.shields.io/badge/Azure CLI-compatible-brightgreen.svg" alt="Azure CLI compatible" /> <img src="https://img.shields.io/badge/PowerShell-compatible-brightgreen.svg" alt="Azure PowerShell compatible" /> 
 
 # A Resizing Service on Steroi... - Azure Functions!
 
