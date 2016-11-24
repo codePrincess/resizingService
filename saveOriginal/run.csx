@@ -52,7 +52,7 @@ public static async Task<HttpResponseMessage> Run(HttpRequestMessage req, Stream
 
 public static Dictionary<string,string> createResponse (string filename, string name) {
     //e.g: https://mycoolresizingapp.blob.core.windows.net
-    string baseURL = "<Your Blob URL goes here!>";
+    string baseURL = "https://imgresizeservicestorage.blob.core.windows.net";
 
     string sizedBaseURL = $"{baseURL}/sized";
     int[] sizes = new int[] {200,100,80,64,48,24};
