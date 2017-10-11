@@ -10,7 +10,7 @@ This repository gives you everything to deploy your own (basic) image resizing s
 
 ## Deployment
 You have three options how you want to deploy the service. The easiest way is to press the button above. The other two options need a bit more knowledge of Azure CLI or PowerShell - so chose the weapon you feel most comfortable with. What happens during the deployment is shown by this neat illustration :)
-<img src="https://lh6.googleusercontent.com/FIHoeJ3AQhmatCcTU67LerIkRUSRD2XdCCc7v7PUSW23L-HAnJeluNOb8LGE3tsvWQTsJ6Crdw1e00U=w1808-h1158-rw" alt="ResizingService deployment" />
+<img src="https://dl.dropboxusercontent.com/s/60t6j0bi4my0g7h/resize_deployment.jpg" alt="ResizingService deployment" />
 
 
 ### Option 1: The easy cake
